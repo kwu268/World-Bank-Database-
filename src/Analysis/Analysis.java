@@ -1,10 +1,17 @@
-package group21;
+package Analysis;
 
 import javax.swing.JInternalFrame;
 import javax.swing.JPanel;
 
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
+
+import Viewers.Viewer_Scatter;
+import Viewers.Viewers_Area;
+import Viewers.Viewers_Bubble;
+import Viewers.Viewers_Line;
+import Viewers.Viewers_Pie;
+import Viewers.Viewers_Bar;
 
 /**
  * Analysis interface for making different calculations and populating different charts, for use of factory design pattern

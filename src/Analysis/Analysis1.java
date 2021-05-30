@@ -1,4 +1,4 @@
-package group21;
+package Analysis;
 
 import java.awt.EventQueue;
 
@@ -7,6 +7,16 @@ import javax.swing.JPanel;
 
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
+
+import Viewers.Viewer_Scatter;
+import Viewers.Viewers_Area;
+import Viewers.Viewers_Bubble;
+import Viewers.Viewers_Line;
+import Viewers.Viewers_Pie;
+import UI.Data;
+import UI.Reader;
+import UI.Selection;
+import Viewers.Viewers_Bar;
 /**
  * Analysis1 implements the "CO2 emissions (MT/capita) vs Energy use (kg of oil equivalent/capita) vs PM2.5 air pollution, mean annual exposure" analysis 
  * @author group21
